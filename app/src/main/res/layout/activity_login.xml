@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:padding="15dp"
+    android:background="@color/colorPrimary">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:text="facebook"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        />
+    <EditText
+        android:layout_width="360dp"
+        android:layout_height="0dp"
+        android:layout_weight="11"
+        android:hint="User name"
+        android:background="#ffff"
+        android:padding="10dp"
+        />
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_width="360dp"
+        android:layout_height="0dp"
+        android:layout_weight="11"
+        android:hint="Password"
+        android:background="#ffff"
+        android:padding="10dp"
+        />
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="18dp"
+        android:text="Log in"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget password ? "
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFF"
+        android:textSize="17dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up for facebook "
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFF"
+        android:textSize="18dp"
+
+        />
+
+</LinearLayout>
